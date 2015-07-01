@@ -1,0 +1,10 @@
+g {
+  font-weight: lighter !important;
+}
+rect {
+  rx: 8px !important;
+  ry: 8px !important;
+}
+path {
+  stroke-linecap: round !important;
+}

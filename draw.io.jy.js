@@ -5,7 +5,7 @@ console.log('Jupyter plugin loaded!');
 var stylesheet = document.createElement("link");
 stylesheet.setAttribute("rel", "stylesheet");
 stylesheet.setAttribute("type", "text/css");
-stylesheet.setAttribute("href", 'draw.io.jy.css');
+stylesheet.setAttribute("href", 'https://cdn.rawgit.com/jdfreder/jupyter-drawio/master/draw.io.jy.css');
 document.getElementsByTagName("head")[0].appendChild(stylesheet);
 
 var toolbar = document.querySelectorAll('.geToolbar')[0];
